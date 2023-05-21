@@ -1,0 +1,299 @@
+/* font link */
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Edu+NSW+ACT+Foundation&family=Lobster&family=Manrope&family=Poppins:wght@400;500;700&family=Raleway&family=Roboto&family=Sigmar&family=Yeseva+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+/* .nav-sec {
+    display: flex;
+    position: relative;
+    top: 87px;
+    align-items: center;
+
+    width: 100%;
+    max-height: fit-content;
+
+} */
+
+
+
+.nav-parent {
+   display: flex;
+   align-items: center;
+   
+
+  
+}
+.nav-bar{
+      padding-top: 87px;
+      padding-left: 120px;
+}
+
+.nav-op-elements .space {
+    display: flex;
+    align-items: baseline;
+    padding-left: 414px;
+    
+
+}
+.logo-text h1{
+    font-weight: 700;
+    font-size: 24px;
+    color: #3A3A3A;
+    
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 17px;
+    display: flex;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;
+}
+
+/* main section start------- */
+
+.container {
+    display: flex;
+    width: 100%;
+ 
+    
+
+
+}
+
+
+
+
+
+.first-sec-details {
+    width: 582px;
+    padding-top: 145px;
+    padding-left: 120px;
+
+
+}
+
+
+.first-sec-details h1 {
+    width: 582px;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 70px;
+    margin-bottom: 0px;
+}
+
+.first-sec-details p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3A3A3A;
+    margin-top: 0px;
+
+}
+
+.button {
+    margin-top: 22px;
+}
+
+.button a {
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    border-radius: 41px;
+
+    width: 196px;
+    height: 44px;
+    padding: 10px 24px;
+    font-size: 16px;
+
+
+
+}
+
+.arrow {
+
+    padding-left: 8px;
+}
+
+.first-sec-img img {
+    width: 440px;
+    height: 414px;
+    padding-left: 103px;
+    padding-top: 40px;
+
+
+
+}
+
+
+.all-logos {
+    padding: 3rem 0;
+    
+    margin-top: 70px;
+    
+}
+
+.logo-wraper {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    /* border-top: 1px solid rgb(211, 211, 211);
+    border-bottom: 1px solid rgb(204, 204, 204); */
+   
+}
+
+
+/* -----------item section---------- */
+.item-section{
+
+ 
+}
+.collection-title h1{
+      text-align: center;
+}
+.new-div{
+      display: flex;
+      justify-content: center;
+}
+.collection-items{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1047px;
+
+ 
+   
+  
+}
+.collection-item{
+    width: 309px;
+    height: 446px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+   
+ 
+}
+.item-img img{
+    width: 300px;
+    height: 256px;
+    
+}
+.item-details h1{
+    font-weight: 500;
+    font-size: 28px;
+}
+.item-details h3{
+    font-weight: 400;
+    font-size: 24px;
+}
+.review-stars  .filled{
+          color: #FB8200;
+          
+
+}
+.filled{
+    width: 16px;
+    height: 16px;
+}
+.review-stars span{
+        padding-left: 8px;
+        color: #5E6366;
+}
+.buyer-name{
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+    width: 196px;
+    height:61px;
+}
+
+
+/* chat GPT section */
+.explore-chatgpt{
+              display: flex;
+              justify-content: center;
+              margin-top: 100px;
+            }
+.chat-gpt-img img{
+    width: 404px;
+   
+}
+.chat-gpt-details {
+               padding-left: 76px;
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               padding-bottom:11px;
+}
+.chat-gpt-header h1{
+    font-weight: 700;
+    font-size: 38px;
+    color: #0A0826;
+}
+.chat-gpt-header span{
+    color: green;
+}
+
+.gpt-para p{
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+    width: 501px;
+    height: 88px;
+}
+
+.footer-pac{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #0A0826;
+    padding: 50px 0px 0px;
+}
+.footer-pac h1{
+    font-weight: 400;
+font-size: 24px;
+color: #FFFFFF;
+}
+.footer-pac h5{
+    font-weight: 400;
+font-size: 14px;
+color: #FFFFFF;
+}
+.footer-pac h5 a{
+
+color: burlywood;
+}
+.footer-pac p{
+    font-weight: 400;
+font-size: 14px;
+color: #D9DBE1;
+}
+.footer-pac .icon{
+ color: white;
+ padding: 8px;
+ width: 32px;
+height: 32px;
+font-size: 18px;
+}
