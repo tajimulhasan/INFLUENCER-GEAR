@@ -59,6 +59,9 @@ nav ul li {
 
 
 }
+.font-icon{
+    font-size: 23px;
+}
 
 nav ul li a {
     text-decoration: none;
@@ -208,12 +211,12 @@ nav ul li a {
 }
 .review-stars  .filled{
           color: #FB8200;
+     
           
 
 }
 .filled{
-    width: 16px;
-    height: 16px;
+    font-size: 16px;
 }
 .review-stars span{
         padding-left: 8px;
