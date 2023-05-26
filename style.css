@@ -229,7 +229,22 @@ nav ul li a {
     width: 196px;
     height:61px;
 }
-
+.see-more h4 {
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+      
+      justify-content: flex-end;
+      padding-right: 121px;
+      padding-top: 15px;
+}
+.see-more h4 a{
+    color: rgba(224, 44, 109, 0.87); 
+    text-decoration: none;
+}
+.arrow{
+    padding-left: 7px;
+}
 
 /* chat GPT section */
 .explore-chatgpt{
@@ -308,4 +323,10 @@ height: 32px;
 font-size: 18px;
 }
 
-
+/* 
+@media only screen and (max-width: 767px){
+    
+.nav-parent{
+     width: 100%;
+}
+} */
